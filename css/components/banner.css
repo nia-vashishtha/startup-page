@@ -1,0 +1,38 @@
+.banner{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), url(../../images/bgg.jpeg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1 {
+	font-size: 50px;
+	margin-left: 400px;
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px;
+	margin-left: 400px;
+}
+
+.banner a {
+	margin-left: 400px;
+}
+
+@media(max-width: 400px) {
+	.banner {
+		width: 250px;
+		margin: 0 auto;
+	}
+}
+
+@media(max-width: 300px) {
+	.banner {
+		width: 200px;
+		margin: 0 auto;
+	}
+}
